@@ -1,0 +1,27 @@
+/* You can add global styles to this file, and also import other style files */
+
+body {
+    padding: 0;
+    margin: 0;
+}
+
+h1, h2, h3, h4, h5 {
+font-family: myriad-pro, sans-serif;
+font-weight: 600;
+font-style: normal;
+}
+
+.xg--white {
+    color: #fff;
+}
+.xg-h4 {
+    line-height: 1.2em;
+    font-size: 17.5px;
+}
+a {
+    color: #08c;
+    text-decoration: none;
+}
+@media only screen and (max-width: 660px) {
+
+}
