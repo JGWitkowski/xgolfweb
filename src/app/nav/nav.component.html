@@ -1,0 +1,64 @@
+<div class="xg-nav__container">
+    <ul class="xg-nav__list">
+        <li class="xg-nav__item">
+            <a href="" class="xg-nav__link">Home</a>
+        </li>
+            <li (click)="clickNav(0)" class="xg-nav__item">
+            <span #toggleOne class="xg-nav__link">Rates</span>
+            <div #toggleOneTarget [ngClass]="showNav[0] ? 'xg-nav__sub-nav--show' : ''" class="xg-nav__sub-nav">
+                <ul class="xg-nav__sub-nav-list">
+                    <li class="xg-nav__sub-nav-list-item">
+                        <a class="xg-nav__sub-nav-list-item-link" href="">Simulator Rates</a>
+                    </li>
+                                        <li class="xg-nav__sub-nav-list-item">
+                        <a class="xg-nav__sub-nav-list-item-link" href="">Lessons</a>
+                    </li>
+                                        <li class="xg-nav__sub-nav-list-item">
+                        <a class="xg-nav__sub-nav-list-item-link" href="">Club Fitting</a>
+                    </li>
+                                        <li class="xg-nav__sub-nav-list-item">
+                        <a class="xg-nav__sub-nav-list-item-link" href="">Club Repair</a>
+                    </li>
+                                        <li class="xg-nav__sub-nav-list-item">
+                        <a class="xg-nav__sub-nav-list-item-link" href="">Gift Cards</a>
+                    </li>
+                    
+                </ul>
+            </div>
+            </li>
+            <li class="xg-nav__item">
+
+            <a href="" class="xg-nav__link">Courses</a>
+            </li>
+            <li (click)="clickNav(1)" class="xg-nav__item">
+
+                <span #toggleTwo class="xg-nav__link">Technology</span>
+                <div #toggleTwoTarget [ngClass]="showNav[1] ? 'xg-nav__sub-nav--show' : ''" class="xg-nav__sub-nav">
+                <ul class="xg-nav__sub-nav-list">
+                    <li class="xg-nav__sub-nav-list-item">
+                        <a class="xg-nav__sub-nav-list-item-link" href="">XPlate</a>
+                    </li>
+                                        <li class="xg-nav__sub-nav-list-item">
+                        <a class="xg-nav__sub-nav-list-item-link" href="">XBall</a>
+                    </li>
+                                        <li class="xg-nav__sub-nav-list-item">
+                        <a class="xg-nav__sub-nav-list-item-link" href="">Video Analysis</a>
+                    </li>
+                    
+                </ul>
+            </div>
+            </li>
+            <li class="xg-nav__item">
+
+            <a href="" class="xg-nav__link">Leagues</a>
+            </li>
+            <li class="xg-nav__item">
+
+            <a href="" class="xg-nav__link">About</a>
+            </li>
+            <li class="xg-nav__item">
+
+            <a href="" class="xg-nav__link">Contact</a>
+            </li>
+    </ul>
+</div>
