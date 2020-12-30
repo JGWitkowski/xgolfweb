@@ -1,0 +1,24 @@
+.ng-main__container {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background: url(/assets/hexabump.png);
+  border: #111 solid 5px;
+  max-width: 1240px;
+  margin: auto;
+  padding-right: 20px;
+  padding-left: 20px;
+  display: flex;
+  margin-top: 60px;
+}
+
+.ng-main__left {
+  width: 33.33%;
+  padding: 0 20px;
+}
+.ng-main__right {
+  width: 66.66%;
+  padding: 0 20px;
+}
+.xg-feature-img {
+  width: 100%;
+}

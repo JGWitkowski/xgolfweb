@@ -1,14 +1,14 @@
 <div class="xg-nav__container">
     <ul class="xg-nav__list">
         <li class="xg-nav__item">
-            <a href="" class="xg-nav__link">Home</a>
+            <a href="/" class="xg-nav__link">Home</a>
         </li>
             <li (click)="clickNav(0)" class="xg-nav__item">
             <span #toggleOne class="xg-nav__link">Rates</span>
             <div #toggleOneTarget [ngClass]="showNav[0] ? 'xg-nav__sub-nav--show' : ''" class="xg-nav__sub-nav">
                 <ul class="xg-nav__sub-nav-list">
                     <li class="xg-nav__sub-nav-list-item">
-                        <a class="xg-nav__sub-nav-list-item-link" href="">Simulator Rates</a>
+                        <a class="xg-nav__sub-nav-list-item-link" href="/rates/simulator-rates">Simulator Rates</a>
                     </li>
                                         <li class="xg-nav__sub-nav-list-item">
                         <a class="xg-nav__sub-nav-list-item-link" href="">Lessons</a>

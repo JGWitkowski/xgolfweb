@@ -1,27 +1,124 @@
 /* You can add global styles to this file, and also import other style files */
 
 body {
-    padding: 0;
-    margin: 0;
+  padding: 0;
+  margin: 0;
+  margin: 0;
+  font-size: 14px;
+  line-height: 20px;
+  color: #333;
+  background-color: #fff;
+  background: url(/assets/background.jpg);
+  font-family: "myriad-pro";
+  background-size: stretch;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+.ng-main__container {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background: url(/assets/hexabump.png);
+  border: #111 solid 5px;
+  max-width: 1240px;
+  margin: auto;
+  padding-right: 20px;
+  padding-left: 20px;
+  display: flex;
+  margin-top: 60px;
+}
+.ng-main__container--secondary {
+  border: none;
 }
 
-h1, h2, h3, h4, h5 {
-font-family: myriad-pro, sans-serif;
-font-weight: 600;
-font-style: normal;
+.ng-main__left {
+  width: 33.33%;
+  padding: 0 20px;
+}
+.ng-main__right {
+  width: 66.66%;
+  padding: 0 20px;
+}
+.xg-feature-img {
+  width: 100%;
 }
 
-.xg--white {
-    color: #fff;
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: myriad-pro, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  margin: 0;
+}
+.xg-h1 {
+  font-size: 38.5px;
+  line-height: 40px;
+}
+
+.xg-h4 {
+  line-height: 1.2em;
+  font-size: 17.5px;
+}
+.xg-h2 {
+  line-height: 40px;
+  font-size: 31.5px;
+}
+.xg-h3 {
+  line-height: 40px;
+  font-size: 35px;
 }
 .xg-h4 {
-    line-height: 1.2em;
-    font-size: 17.5px;
+  line-height: 40px;
+  font-size: 23px;
+}
+.xg-text {
+  font-size: 1.4em;
+  line-height: 1.35em;
+  margin-top: 0;
 }
 a {
-    color: #08c;
-    text-decoration: none;
+  color: #08c;
+  text-decoration: none;
+}
+.credit-cards {
+  width: 225px;
+}
+.xg-heading {
+  display: block;
+  background: black;
+  position: absolute;
+  height: 115px;
+  border: white 2px solid;
+  color: white;
+  justify-content: flex-start;
+  align-items: center;
+  display: flex;
+  padding: 0 30px;
+  width: calc(100% - 105px);
+  margin-top: -66px;
+}
+.xg-section {
+  background: #fff;
+  margin-top: 120px;
+  position: relative;
+  max-width: 900px;
+  padding-bottom: 20px;
+}
+.xg-heading-img {
+  width: 120px;
+  margin-right: 60px;
+}
+.xg-main-content {
+  margin-top: 130px;
+  padding: 1em;
 }
 @media only screen and (max-width: 660px) {
+}
 
+/* Modifiers */
+
+.xg--white {
+  color: #fff;
 }
