@@ -1,0 +1,158 @@
+/* You can add global styles to this file, and also import other style files */
+body {
+  padding: 0;
+  margin: 0;
+  margin: 0;
+  font-size: 14px;
+  line-height: 20px;
+  color: #333;
+  background-color: #fff;
+  background: url(/assets/background.jpg);
+  font-family: "myriad-pro";
+  background-size: stretch;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+}
+.ng-main__container {
+  padding-top: 20px;
+  padding-bottom: 20px;
+  background: url(/assets/hexabump.png);
+  border: #111 solid 5px;
+  max-width: 1240px;
+  margin: auto;
+  padding-right: 20px;
+  padding-left: 20px;
+  display: flex;
+  margin-top: 60px;
+  flex-wrap: wrap;
+}
+.ng-main__container--secondary {
+  border: none;
+}
+.ng-main__left {
+  width: calc(33.33% - 40px);
+  padding: 0 20px;
+}
+.ng-main__right {
+  width: calc(66.66% - 40px);
+  padding: 0 20px;
+}
+.xg-feature-img {
+  width: 100%;
+}
+h1,
+h2,
+h3,
+h4,
+h5 {
+  font-family: myriad-pro, sans-serif;
+  font-weight: 600;
+  font-style: normal;
+  margin: 0;
+}
+.xg-h1 {
+  font-size: 38.5px;
+  line-height: 40px;
+}
+.xg-h1 + p {
+  margin-top: 12px;
+}
+.xg-h4 {
+  line-height: 1.2em;
+  font-size: 17.5px;
+}
+.xg-h2 {
+  line-height: 40px;
+  font-size: 31.5px;
+}
+.xg-h2 + p {
+  margin-top: 12px;
+}
+.xg-h3 {
+  line-height: 40px;
+  font-size: 35px;
+}
+.xg-h4 {
+  line-height: 40px;
+  font-size: 23px;
+}
+.xg-h4 + p {
+  margin-top: 8px;
+}
+.xg-text {
+  font-size: 1.4em;
+  line-height: 1.35em;
+  margin-top: 0;
+}
+a {
+  color: #08c;
+  text-decoration: none;
+}
+.credit-cards {
+  width: 225px;
+}
+.xg-heading {
+  display: block;
+  background: black;
+  position: absolute;
+  height: 115px;
+  border: white 2px solid;
+  color: white;
+  justify-content: flex-start;
+  align-items: center;
+  display: flex;
+  padding: 0 30px;
+  width: calc(100% - 105px);
+  margin-top: -66px;
+}
+.xg-section {
+  background: #fff;
+  margin-top: 120px;
+  position: relative;
+  max-width: 900px;
+  padding-bottom: 20px;
+}
+.xg-heading-img {
+  width: 120px;
+  margin-right: 60px;
+}
+.xg-main-content {
+  margin-top: 130px;
+  padding: 1em;
+}
+.repairs {
+  list-style: none;
+  font-size: 1.3em;
+  margin-left: 0px;
+  margin: 0;
+  padding: 0;
+}
+.repairs li:nth-child(odd) {
+  background-color: #ccc;
+}
+.repairs li {
+  padding: 5px 8px;
+}
+/* Modifiers */
+.xg--white {
+  color: #fff;
+}
+.ng-main__bottom {
+  display: flex;
+  width: 100%;
+}
+.ng-main__bottom-col {
+  width: 33.33%;
+  background: #fff;
+  margin: 30px 20px;
+  padding: 20px;
+  text-align: center;
+  position: relative;
+  border-bottom: 10px solid #f4911e;
+  border-top: 10px solid #eee;
+  background-image: url(/web/20190105061920im_/http://xgolfnewengland.com/static/img/xgolf-logo-motif2.png);
+  background-repeat: no-repeat;
+  background-position: -5% 105%;
+  background-size: 50%;
+  background-color: #fff;
+}
