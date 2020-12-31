@@ -11,16 +11,16 @@
                         <a class="xg-nav__sub-nav-list-item-link" href="/rates/simulator-rates">Simulator Rates</a>
                     </li>
                                         <li class="xg-nav__sub-nav-list-item">
-                        <a class="xg-nav__sub-nav-list-item-link" href="">Lessons</a>
+                        <a class="xg-nav__sub-nav-list-item-link" href="/rates/lessons">Lessons</a>
                     </li>
                                         <li class="xg-nav__sub-nav-list-item">
-                        <a class="xg-nav__sub-nav-list-item-link" href="">Club Fitting</a>
+                        <a class="xg-nav__sub-nav-list-item-link" href="/rates/club-fitting">Club Fitting</a>
                     </li>
                                         <li class="xg-nav__sub-nav-list-item">
-                        <a class="xg-nav__sub-nav-list-item-link" href="">Club Repair</a>
+                        <a class="xg-nav__sub-nav-list-item-link" href="/rates/club-repair">Club Repair</a>
                     </li>
                                         <li class="xg-nav__sub-nav-list-item">
-                        <a class="xg-nav__sub-nav-list-item-link" href="">Gift Cards</a>
+                        <a class="xg-nav__sub-nav-list-item-link" href="/rates/giftcards">Gift Cards</a>
                     </li>
                     
                 </ul>
@@ -28,7 +28,7 @@
             </li>
             <li class="xg-nav__item">
 
-            <a href="" class="xg-nav__link">Courses</a>
+            <a href="/courses" class="xg-nav__link">Courses</a>
             </li>
             <li (click)="clickNav(1)" class="xg-nav__item">
 
@@ -36,13 +36,13 @@
                 <div #toggleTwoTarget [ngClass]="showNav[1] ? 'xg-nav__sub-nav--show' : ''" class="xg-nav__sub-nav">
                 <ul class="xg-nav__sub-nav-list">
                     <li class="xg-nav__sub-nav-list-item">
-                        <a class="xg-nav__sub-nav-list-item-link" href="">XPlate</a>
+                        <a class="xg-nav__sub-nav-list-item-link" href="/xplate">XPlate</a>
                     </li>
                                         <li class="xg-nav__sub-nav-list-item">
-                        <a class="xg-nav__sub-nav-list-item-link" href="">XBall</a>
+                        <a class="xg-nav__sub-nav-list-item-link" href="/xball">XBall</a>
                     </li>
                                         <li class="xg-nav__sub-nav-list-item">
-                        <a class="xg-nav__sub-nav-list-item-link" href="">Video Analysis</a>
+                        <a class="xg-nav__sub-nav-list-item-link" href="/video-analysis">Video Analysis</a>
                     </li>
                     
                 </ul>
@@ -50,15 +50,26 @@
             </li>
             <li class="xg-nav__item">
 
-            <a href="" class="xg-nav__link">Leagues</a>
+            <a href="/leagues" class="xg-nav__link">Leagues</a>
             </li>
             <li class="xg-nav__item">
 
-            <a href="" class="xg-nav__link">About</a>
+            <a href="/about" class="xg-nav__link">About</a>
             </li>
-            <li class="xg-nav__item">
+            <li (click)="clickNav(2)" class="xg-nav__item">
 
-            <a href="" class="xg-nav__link">Contact</a>
+            <span #toggleThree class="xg-nav__link">Contact</span>
+                            <div #toggleThreeTarget [ngClass]="showNav[2] ? 'xg-nav__sub-nav--show' : ''" class="xg-nav__sub-nav">
+                <ul class="xg-nav__sub-nav-list">
+                    <li class="xg-nav__sub-nav-list-item">
+                        <a class="xg-nav__sub-nav-list-item-link" href="/contact/connect">Connect With Us</a>
+                    </li>
+                                        <li class="xg-nav__sub-nav-list-item">
+                        <a class="xg-nav__sub-nav-list-item-link" href="/contact/directions">Directions</a>
+                    </li>
+                    
+                </ul>
+            </div>
             </li>
     </ul>
 </div>

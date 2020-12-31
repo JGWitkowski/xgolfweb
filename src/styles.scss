@@ -25,17 +25,18 @@ body {
   padding-left: 20px;
   display: flex;
   margin-top: 60px;
+  flex-wrap: wrap;
 }
 .ng-main__container--secondary {
   border: none;
 }
 
 .ng-main__left {
-  width: 33.33%;
+  width: calc(33.33% - 40px);
   padding: 0 20px;
 }
 .ng-main__right {
-  width: 66.66%;
+  width: calc(66.66% - 40px);
   padding: 0 20px;
 }
 .xg-feature-img {
@@ -55,6 +56,9 @@ h5 {
 .xg-h1 {
   font-size: 38.5px;
   line-height: 40px;
+  + p {
+    margin-top: 12px;
+  }
 }
 
 .xg-h4 {
@@ -64,6 +68,9 @@ h5 {
 .xg-h2 {
   line-height: 40px;
   font-size: 31.5px;
+  + p {
+    margin-top: 12px;
+  }
 }
 .xg-h3 {
   line-height: 40px;
@@ -72,6 +79,9 @@ h5 {
 .xg-h4 {
   line-height: 40px;
   font-size: 23px;
+  + p {
+    margin-top: 8px;
+  }
 }
 .xg-text {
   font-size: 1.4em;
@@ -114,6 +124,19 @@ a {
   margin-top: 130px;
   padding: 1em;
 }
+.repairs {
+  list-style: none;
+  font-size: 1.3em;
+  margin-left: 0px;
+  margin: 0;
+  padding: 0;
+}
+.repairs li:nth-child(odd) {
+  background-color: #ccc;
+}
+.repairs li {
+  padding: 5px 8px;
+}
 @media only screen and (max-width: 660px) {
 }
 
@@ -121,4 +144,24 @@ a {
 
 .xg--white {
   color: #fff;
+}
+
+.ng-main__bottom {
+  display: flex;
+  width: 100%;
+}
+.ng-main__bottom-col {
+  width: 33.33%;
+  background: #fff;
+  margin: 30px 20px;
+  padding: 20px;
+  text-align: center;
+  position: relative;
+  border-bottom: 10px solid #f4911e;
+  border-top: 10px solid #eee;
+  background-image: url(/web/20190105061920im_/http://xgolfnewengland.com/static/img/xgolf-logo-motif2.png);
+  background-repeat: no-repeat;
+  background-position: -5% 105%;
+  background-size: 50%;
+  background-color: #fff;
 }

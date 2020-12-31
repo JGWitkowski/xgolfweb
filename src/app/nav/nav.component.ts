@@ -11,6 +11,8 @@ export class NavComponent implements OnInit {
   @ViewChild('toggleOneTarget') toggleOneTarget: ElementRef | undefined;
       @ViewChild('toggleTwo') toggleTwo: ElementRef | undefined;
   @ViewChild('toggleTwoTarget') toggleTwoTarget: ElementRef | undefined;
+        @ViewChild('toggleThree') toggleThree: ElementRef | undefined;
+  @ViewChild('toggleThreeTarget') toggleThreeTarget: ElementRef | undefined;
 
   showNav = [false,false];
   clickNav(number: number) {
@@ -26,6 +28,9 @@ export class NavComponent implements OnInit {
         }
               if(e.target !== this.toggleTwo!.nativeElement && e.target!==this.toggleTwoTarget!.nativeElement){
             this.showNav[1] = false;
+              }
+                    if(e.target !== this.toggleThree!.nativeElement && e.target!==this.toggleThreeTarget!.nativeElement){
+            this.showNav[2] = false;
         }
     });
   }
